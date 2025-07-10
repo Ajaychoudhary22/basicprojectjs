@@ -1,0 +1,54 @@
+/* Container Style */
+.Container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Add Task Button */
+#add {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#add:hover {
+  background-color: #218838;
+}
+
+/* Task Item */
+.task {
+  display: flex;
+  justify-content: space-between; /* 👈 Push text left, button right */
+  align-items: center;
+  background: #ffffff;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Task Text */
+.task-text {
+  text-align: left;
+  flex-grow: 1;
+}
+
+/* Delete Button */
+.btn-delete {
+  background-color: crimson;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-delete:hover {
+  background-color: darkred;
+}
