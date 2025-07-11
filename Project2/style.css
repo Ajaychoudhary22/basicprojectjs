@@ -1,0 +1,62 @@
+/* Apply center layout to body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6dd5fa, #2980b9);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ❌ Don't style all divs — only target #card */
+#card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+/* Input styles */
+#input-container input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+/* Button styles */
+#input-container button {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+/* Weather info */
+#weather-info h2 {
+    margin-top: 15px;
+    font-size: 24px;
+    color: #333;
+}
+#weather-info p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Error message */
+#error-message {
+    color: red;
+    margin-top: 15px;
+}
+
+.hidden {
+    display: none;
+}
